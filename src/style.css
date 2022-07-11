@@ -1,1 +1,16 @@
 /* styles go here */
+.group {
+  margin: 20px 2px 2px;
+}
+
+.group:first-child {
+  margin-top: 0;
+}
+
+.inputPlace {
+  margin-bottom: 10px;
+}
+
+.group > .inputPlace:last-child {
+  margin-bottom: 0;
+}
